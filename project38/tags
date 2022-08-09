@@ -1,0 +1,10 @@
+_SAVINGS_ACCOUNT_H_	D:\Documents\firstworkspace\project38\Savings_Account.h	/^#define _SAVINGS_ACCOUNT_H_$/;"	macro	line:2
+Savings_Account	D:\Documents\firstworkspace\project38\Savings_Account.h	/^class Savings_Account: public Account {$/;"	class	line:6	inherits:Account
+def_name	D:\Documents\firstworkspace\project38\Savings_Account.h	/^    static constexpr const char *def_name = "Unnamed Savings Account";$/;"	member	line:9	class:Savings_Account	access:private
+def_balance	D:\Documents\firstworkspace\project38\Savings_Account.h	/^    static constexpr double def_balance = 0.0;$/;"	member	line:10	class:Savings_Account	access:private
+def_int_rate	D:\Documents\firstworkspace\project38\Savings_Account.h	/^    static constexpr double def_int_rate = 0.0;$/;"	member	line:11	class:Savings_Account	access:private
+int_rate	D:\Documents\firstworkspace\project38\Savings_Account.h	/^    double int_rate;$/;"	member	line:13	class:Savings_Account	access:protected
+Savings_Account	D:\Documents\firstworkspace\project38\Savings_Account.h	/^    Savings_Account(std::string name = def_name, double balance =def_balance, double int_rate = def_int_rate);    $/;"	prototype	line:15	class:Savings_Account	access:public	signature:(std::string name = def_name, double balance =def_balance, double int_rate = def_int_rate)
+deposit	D:\Documents\firstworkspace\project38\Savings_Account.h	/^    virtual bool deposit(double amount);$/;"	prototype	line:16	class:Savings_Account	access:public	implementation:virtual	signature:(double amount)	returns:virtual bool 
+withdraw	D:\Documents\firstworkspace\project38\Savings_Account.h	/^    virtual bool withdraw(double amount);$/;"	prototype	line:17	class:Savings_Account	access:public	implementation:virtual	signature:(double amount)	returns:virtual bool 
+print	D:\Documents\firstworkspace\project38\Savings_Account.h	/^    virtual void print(std::ostream &os);$/;"	prototype	line:19	class:Savings_Account	access:public	implementation:virtual	signature:(std::ostream &os)	returns:virtual void 
